@@ -763,19 +763,6 @@ export default function Home() {
                           </a>
                         </div>
 
-                        <div className="flex items-center gap-4 hover:translate-x-2 transition-transform">
-                          <div className="bg-primary/20 p-3 rounded-full">
-                            <ExternalLink className="h-6 w-6 text-primary" />
-                          </div>
-                          <a
-                            href="https://www.iamqitmeer-portfolio.vercel.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-primary transition-colors"
-                          >
-                            iamqitmeer-portfolio.vercel.app
-                          </a>
-                        </div>
                       </div>
 
                       <div className="mt-12">
