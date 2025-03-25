@@ -85,8 +85,8 @@ export default function Home() {
   ]);
 
   const scrollToSection = (ref: React.RefObject<HTMLElement | null>) => {
-      ref.current?.scrollIntoView({ behavior: "smooth" });
-      setIsMobileMenuOpen(false);
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+    setIsMobileMenuOpen(false);
   };
 
   const navItems = [
@@ -258,9 +258,8 @@ export default function Home() {
                 </Button>
 
                 <Button variant="outline" asChild>
-                  <a href="/resume.pdf" download>
-                    Download CV
-                    <Download className="ml-2 h-4 w-4" />
+                  <a href="https://my-resume74.tiiny.site" target="blank" download>
+                    Check Out My Resume <Download className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
               </div>
